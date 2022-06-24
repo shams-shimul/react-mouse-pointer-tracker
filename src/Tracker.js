@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const initialPosition = { x: -100, y: -100 };
+const initialPosition = { x: 0, y: 0 };
 
 export const Tracker = () => {
   const [position, setPosition] = useState(initialPosition);
